@@ -69,17 +69,17 @@ On the other hand, send can be used by anyone (who already has some of these coi
 ## JVM
 ![](Jvm/1.program.gif)
 ![](Jvm/2.cmpilrLoading.gif)
-![](Jvm/3.AftrrCompilerLoadRun.jpg)
+![alt text](Jvm/3.AftrrCompilerLoadRun.jpg)
 ![](Jvm/4.SelectCreatorAcnt.gif)
-![](Jvm/5.CreatorAccount.jpg)
-![](Jvm/6.AfterDeploy.jpg)
+![alt text](Jvm/5.CreatorAccount.jpg)
+![alt text](Jvm/6.AfterDeploy.jpg)
 ![](Jvm/7.SelectingReceiverAddress.gif)
 ![](Jvm/8.SelecValueNTransctToChoosenRecieverFromCreator.gif)
 ![](Jvm/9.BalnceInReciveAcnt,CreatorNam,CreatorAddress.gif)
 ![](Jvm/10.SelectRecievrForSendFunc.gif)
 ![](Jvm/11.SelectSenderNValueForSendFunc.gif)
 ![](Jvm/12.SentValueUsingSendFunction.gif)
-![](Jvm/13.ValueInSenderAcntAftrSent.jpg)
+![alt text](Jvm/13.ValueInSenderAcntAftrSent.jpg)
 
 ## Conclusion
 Approved Account Transaction Implemented.
