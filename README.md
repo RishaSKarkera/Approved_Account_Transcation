@@ -81,5 +81,16 @@ On the other hand, send can be used by anyone (who already has some of these coi
 ![](Jvm/12.SentValueUsingSendFunction.gif)
 ![alt text](Jvm/13.ValueInSenderAcntAftrSent.jpg)
 
+## Injected Web
+![](injectedWeb/1.SelectInjectedWeb.gif)
+![](injectedWeb/2.DeploySuccesful.gif)
+![alt text](injectedWeb/3.SuccessfulDeployLog.jpg)
+![](injectedWeb/4.AfterDeployCreatorAddress.jpg)
+![alt text](injectedWeb/5.RecieverAddresNCreatorName.gif)
+![alt text](injectedWeb/6.SendingValueToReciever.gif)
+![](injectedWeb/7.CheckingBalanceOfReciever.gif)
+![](injectedWeb/8.CheckingBalanceOfCreator.gif)
+![](injectedWeb/9.UsingSendErrorBecause0BALANCEWithSender.gif)
+
 ## Conclusion
 Approved Account Transaction Implemented.
