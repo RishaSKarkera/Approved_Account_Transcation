@@ -62,12 +62,12 @@ The line event Sent(address from, address to, uint amount); declares a so-called
 Finally, the functions that will actually end up with the contract and can be called by users and contracts alike are create and send. If cretae is called by anyone except the account that created the contract, nothing will happen. This is ensured by the special function require which causes all changes to be reverted if its argument evaluates to false. The second call to require ensures that there will not be too many coins, which could cause overflow errors later.<br><br>
 On the other hand, send can be used by anyone (who already has some of these coins) to send coins to anyone else. If you do not have enough coins to send, the require call will fail and also provide the user with an appropriate error message string.<br>
 
-# This program is executed in two environments.
+### This program is executed in two environments.
 1. JVM
 2. Injected Web
 
 ## JVM
-
+![alt-text]Jvm/1.program.gif
 
 ## Conclusion
 Approved Account Transaction Implemented.
