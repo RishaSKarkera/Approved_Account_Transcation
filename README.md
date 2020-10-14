@@ -68,6 +68,7 @@ On the other hand, send can be used by anyone (who already has some of these coi
 
 ## JVM
 ![alt-text]Jvm/1.program.gif
+![](Jvm/1.program.gif)
 
 ## Conclusion
 Approved Account Transaction Implemented.
