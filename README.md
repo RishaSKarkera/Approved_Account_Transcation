@@ -67,7 +67,6 @@ On the other hand, send can be used by anyone (who already has some of these coi
 2. Injected Web
 
 ## JVM
-![alt-text]Jvm/1.program.gif
 ![](Jvm/1.program.gif)
 
 ## Conclusion
