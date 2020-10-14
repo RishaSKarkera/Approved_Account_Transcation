@@ -102,9 +102,9 @@ On the other hand, send can be used by anyone (who already has some of these coi
 ![](Jvm/7.SelectingReceiverAddress.gif)
 
 ```
-8. Using create function.</br>
+8. Using create function.
 Creator of contract is choosing the amount of ether he wishes to send to the choosen reciever.
-Only creator of contract can be the sender to use this function and can specify his/her name while sending.</br>
+Only creator of contract can be the sender to use this function and can specify his/her name while sending.
 That is why it is approved transcation because everybody dont have access to this function.
 ```
 ![](Jvm/8.SelecValueNTransctToChoosenRecieverFromCreator.gif)
@@ -115,7 +115,7 @@ That is why it is approved transcation because everybody dont have access to thi
 ![](Jvm/9.BalnceInReciveAcnt,CreatorNam,CreatorAddress.gif)
 
 ```
-10.Using send function.</br>
+10.Using send function.
 Any sender can use this function to send ethers to any reciever. Here,sender need not be the contract creator.
 ```
 ![](Jvm/10.SelectRecievrForSendFunc.gif)
@@ -136,14 +136,49 @@ Any sender can use this function to send ethers to any reciever. Here,sender nee
 ![alt text](Jvm/13.ValueInSenderAcntAftrSent.jpg)
 
 ## Injected Web
+```
+1.Switching to Injected web environment.
+```
 ![](injectedWeb/1.SelectInjectedWeb.gif)
+```
+2. Successfull deploying of contract.
+```
 ![](injectedWeb/2.DeploySuccesful.gif)
+
+```
+3.Log showing details about successfull transaction.
+```
 ![alt text](injectedWeb/3.SuccessfulDeployLog.jpg)
+
+```
+4. Checking the creator address after deploy.
+```
 ![](injectedWeb/4.AfterDeployCreatorAddress.jpg)
+
+```
+5.Using create function.
+  Specifying reciever address and sender name.
+```
 ![alt text](injectedWeb/5.RecieverAddresNCreatorName.gif)
+
+```
+6. Sending value to the reciver by specifying amount.
+```
 ![alt text](injectedWeb/6.SendingValueToReciever.gif)
+
+```
+7. Checking the balance of the reciever.
+```
 ![](injectedWeb/7.CheckingBalanceOfReciever.gif)
+
+```
+8. Checking balance of creator. He has 0 balance.
+```
 ![](injectedWeb/8.CheckingBalanceOfCreator.gif)
+
+```
+9. Unsuccessfull transaction using send function because sender 0 balance.
+```
 ![](injectedWeb/9.UsingSendErrorBecause0BALANCEWithSender.gif)
 
 ## Conclusion
