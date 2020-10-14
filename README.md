@@ -67,18 +67,72 @@ On the other hand, send can be used by anyone (who already has some of these coi
 2. Injected Web
 
 ## JVM
+```
+1. This GIF shows the program written in environment.
+```
 ![](Jvm/1.program.gif)
+
+```
+2. Loading the suitable compiler version according to what is specified in the program.
+```
 ![](Jvm/2.cmpilrLoading.gif)
+```
+3. Choosing run to execute the contract.
+```
 ![alt text](Jvm/3.AftrrCompilerLoadRun.jpg)
+
+```
+4. Selecting a address for contract creator account.
+```
 ![](Jvm/4.SelectCreatorAcnt.gif)
+
+```
+5. Details of Creator account.
+```
 ![alt text](Jvm/5.CreatorAccount.jpg)
+
+```
+6. Functions after deploying the contract.
+```
 ![alt text](Jvm/6.AfterDeploy.jpg)
+
+```
+7. Selecting reciever address to send value.
+```
 ![](Jvm/7.SelectingReceiverAddress.gif)
+
+```
+8. Using create function.</br>
+Creator of contract is choosing the amount of ether he wishes to send to the choosen reciever.
+Only creator of contract can be the sender to use this function and can specify his/her name while sending.</br>
+That is why it is approved transcation because everybody dont have access to this function.
+```
 ![](Jvm/8.SelecValueNTransctToChoosenRecieverFromCreator.gif)
+
+```
+9.Checking balance in the reciever account after transaction, name of the sender and address of the sender.
+```
 ![](Jvm/9.BalnceInReciveAcnt,CreatorNam,CreatorAddress.gif)
+
+```
+10.Using send function.</br>
+Any sender can use this function to send ethers to any reciever. Here,sender need not be the contract creator.
+```
 ![](Jvm/10.SelectRecievrForSendFunc.gif)
+
+```
+11. Selecting different account other than creator to send the ethers and selecting the amount to send.
+```
 ![](Jvm/11.SelectSenderNValueForSendFunc.gif)
+
+```
+12. Sending the value.
+```
 ![](Jvm/12.SentValueUsingSendFunction.gif)
+
+```
+13.Checking balance in senders account after transaction.
+```
 ![alt text](Jvm/13.ValueInSenderAcntAftrSent.jpg)
 
 ## Injected Web
